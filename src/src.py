@@ -4,9 +4,8 @@ import sys
 import psycopg2
 
 # Globally declared cursors
-dbconn = psycopg2.connect(host='studsql.csc.uvic.ca', user='ubangi',
-password='DMcn|0~}mu')
-cursor = dbconn.cursor()
+dbconn = psycopg2.connect(host='studsql.csc.uvic.ca',
+                          cursor = dbconn.cursor()
 
 def selectviews():
 	print("Phase 1: \n"
